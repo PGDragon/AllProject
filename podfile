@@ -1,0 +1,21 @@
+platform :ios, ‘8.0'
+inhibit_all_warnings!
+
+xcodeproj ‘lianxiExtend’
+target :lianxiExtend do
+pod ‘JSONModel’
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'IQKeyboardManager', '~> 3.3.2'
+#pod 'MBProgressHUD'
+pod 'SDWebImage'
+pod 'UMengUShare'
+pod ‘UMengUShare/Social/WeChat'
+pod ‘UMengUShare/Social/QQ'
+pod 'JPush'
+
+# 二维码
+pod 'HMQRCodeScanner'
+
+end
